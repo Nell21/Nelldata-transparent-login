@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin 0;
+    padding: 0;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./animal-8473850_960_720.jpg);
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 800px;
+}
+
+.login {
+    color: antiquewhite;
+    text-align: center;
+    border-bottom: 5px solid green;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 400px;
+}
+
+input {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 3px solid green;
+    width: 380px;
+    margin: 20px;
+    padding: 3x;
+
+}
+
+.input input::placeholder {
+    font-weight: bold;
+}
+
+button {
+    border: 4px solid green;
+    color: antiquewhite;
+    background-color: transparent;
+    width: 400px;
+    padding: 5px 10px;
+    margin: 50px;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
